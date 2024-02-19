@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* темный цвет фона */
+    color: #fff; /* белый цвет текста */
+    background-image: url('background.jpg'); /* задний фон */
+    background-size: cover; /* устанавливаем размер фона по размеру экрана */
+    background-position: center; /* позиционируем фон по центру */
+    background-repeat: no-repeat; /* запрещаем повторение фона */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(43, 43, 43, 0.8); /* темно-серый цвет фона контейнера с прозрачностью */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #fff; /* белый цвет заголовка */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="submit"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #333; /* серый цвет рамки поля */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1); /* полупрозрачный белый фон для полей */
+    color: #fff; /* белый цвет текста в полях */
+}
+
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    color: rgba(255, 255, 255, 0.5); /* полупрозрачный белый цвет для плейсхолдера */
+}
+
+textarea {
+    resize: vertical; /* разрешить изменение размера только по вертикали для текстового поля */
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333; /* серый цвет для кнопки */
+    color: #fff; /* белый цвет для текста на кнопке */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #555; /* темно-серый цвет при наведении */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* темный цвет фона */
+    color: #fff; /* белый цвет текста */
+    background-image: url('background.jpg'); /* задний фон */
+    background-size: cover; /* устанавливаем размер фона по размеру экрана */
+    background-position: center; /* позиционируем фон по центру */
+    background-repeat: no-repeat; /* запрещаем повторение фона */
+    margin: 0; /* убираем отступы */
+    padding: 0; /* убираем отступы */
+}
+
+header {
+    background-color: #333; /* цвет фона хедера */
+    padding: 20px 0; /* внутренний отступ хедера */
+}
+
+header h1 {
+    text-align: center;
+    color: #fff; /* белый цвет заголовка */
+}
+
+nav ul {
+    list-style-type: none; /* убираем маркеры списка */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block; /* элементы списка располагаем в одну линию */
+    margin: 0 10px; /* внешний отступ между элементами списка */
+}
+
+nav ul li a {
+    color: #fff; /* белый цвет ссылок */
+    text-decoration: none; /* убираем подчеркивание ссылок */
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(43, 43, 43, 0.8); /* темно-серый цвет фона контейнера с прозрачностью */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px; /* внешний отступ между секциями */
+}
+
+h2 {
+    color: #fff; /* белый цвет заголовка */
+}
+
+p {
+    color: #fff; /* белый цвет текста */
+}
